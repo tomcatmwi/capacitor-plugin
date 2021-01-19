@@ -5,7 +5,6 @@
 # node files
 js-capacitor-jwplugin/dist/
 js-capacitor-jwplugin/node_modules/
-js-capacitor-jwplugin/
 
 # iOS files
 js-capacitor-jwplugin/**/Pods

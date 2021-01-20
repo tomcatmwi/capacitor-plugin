@@ -2,13 +2,8 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import React from 'react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
-import { Plugins } from '@capacitor/core';
 
 const Home: React.FC = () => {
-
-  const { JWPlayer } = Plugins;
-  console.log('Calling Android plugin');
-  JWPlayer.test();
 
   return (
     <IonPage>
